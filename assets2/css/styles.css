@@ -1,0 +1,135 @@
+/*aplicar los cambios en todo*/
+*{
+    margin: 10px;
+    background-color: #c9c9c9;
+}
+
+/*cambios en el body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 90px 90px;
+}
+
+/*titulo*/
+h1 {
+    text-align: center;
+}
+
+/*cambios en las fotos*/
+.foto_1{
+    width: 150px;
+    align-items: center;
+}
+
+.foto_2{
+    width: 150px;
+}
+
+.foto_ginger{
+    width: 150px;
+}
+
+.foto_tommy{
+    width: 150px;
+}
+
+.foto_lucifer{
+    width: 180px;
+}
+
+.foto_cachulo{
+    width: 200px;
+}
+
+.foto_niña{
+    width: 200px;
+}
+
+.foto_flaca{
+    width: 200px;
+}
+
+.ginger{
+    width: 300px;
+}
+
+.tommy{
+    width: 300px;
+}
+
+.lucifer{
+    width: 300px;
+}
+
+.cachulo{
+    width: 350px;
+}
+
+.niña{
+    width: 350px;
+}
+
+.flaca{
+    width: 300px;
+}
+
+/*class*/
+.columna{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.columna_1{
+    font-size: 115%;
+}
+
+.columna_2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.div-animales{
+    display: flex;
+    justify-content: flex-start; /*se ocupa siesque es flex, en la esquina*/
+    align-items: center;
+    padding-bottom: 25px; /*da relleno abajo del elemento*/
+}
+
+.nombres{
+    list-style: none;
+}
+
+.boton{
+    text-align: right;
+}
+
+.link-animal{
+    padding-left: 100px;
+}
+
+.link-gatos{
+    padding-left: 100px; /*relleno a la izquierda (n px) es el espacio entre las cosas*/
+    /*ejemplo padding: 10px 20px 15px 5px;  arriba, derecha, abajo, izquierda */
+}
+
+.datos_gatos {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al principio verticalmente */
+}
+
+.datos_perros{
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos al principio verticalmente */
+}
+
+.info ul{
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+    margin-top: 50px; /*margen en la parte superior del elemento*/
+    list-style-type: none; /*elimina las viñetas*/
+    font-size: 20px; /*cambia el tamaño de las letras*/
+}
+
